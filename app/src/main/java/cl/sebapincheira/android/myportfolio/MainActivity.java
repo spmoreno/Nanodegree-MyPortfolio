@@ -20,23 +20,30 @@ public class MainActivity extends AppCompatActivity {
         Integer vApp = iView.getId();
 
 
-        if (vApp == R.id.button_spotify) {
-            vText = "Spotify Streamer";
+        switch (vApp){
+            case R.id.button_spotify:
+                vText = "Spotify Streamer";
+                break;
 
-        } else if (vApp == R.id.button_scores) {
-            vText = "Scores";
+            case R.id.button_scores:
+                vText = "Scores";
+                break;
 
-        } else if (vApp == R.id.button_library) {
-            vText = "Library";
+            case R.id.button_library:
+                vText = "Library";
+                break;
 
-        } else if (vApp == R.id.button_built) {
-            vText = "Built";
+            case R.id.button_built:
+                vText = "Built";
+                break;
 
-        } else if (vApp == R.id.button_xyz) {
-            vText = "XYZ";
+            case R.id.button_xyz:
+                vText = "XYZ";
+                break;
 
-        } else if (vApp == R.id.button_capstone) {
-            vText = "Capstone";
+            case R.id.button_capstone:
+                vText = "Capstone";
+                break;
 
         }
 
